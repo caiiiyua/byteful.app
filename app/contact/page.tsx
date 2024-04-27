@@ -1,28 +1,34 @@
 "use client";
-import { Github, Mail, Twitter } from "lucide-react";
+import { Github, Mail, Twitter, Linkedin } from "lucide-react";
 import Link from "next/link";
 import { Navigation } from "../components/nav";
 import { Card } from "../components/card";
 
 const socials = [
 	{
-		icon: <Twitter size={20} />,
-		href: "https://twitter.com/chronark_",
-		label: "Twitter",
-		handle: "@chronark_",
+		icon: <Linkedin size={20} />,
+		href: "https://nz.linkedin.com/in/caiyuanqing",
+		label: "LinkedIn",
+		handle: "caiyuanqing",
 	},
 	{
 		icon: <Mail size={20} />,
-		href: "mailto:dev@chronark.com",
+		href: "mailto:caiiiyua@byteful.app",
 		label: "Email",
-		handle: "dev@chronark.com",
+		handle: "caiiiyua@byteful.app",
 	},
 	{
 		icon: <Github size={20} />,
-		href: "https://github.com/chronark",
+		href: "https://github.com/caiiiyua",
 		label: "Github",
-		handle: "chronark",
+		handle: "caiiiyua",
 	},
+	{
+		icon: <Twitter size={20} />,
+		href: "https://twitter.com/byteful_app",
+		label: "Twitter",
+		handle: "@byteful_app",
+	}
 ];
 
 export default function Example() {
